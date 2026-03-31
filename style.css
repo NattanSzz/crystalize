@@ -64,7 +64,7 @@ p {
     border: 1px solid white;
     border-radius: 20px;
     text-align: center;
-    width: 70%;
+    width: 60%;
     height: 45%;
     display: grid;
     align-items: center;
@@ -90,8 +90,9 @@ ul li {
 img {
     grid-row: 2 / 5;
     grid-column: 2 / -1;
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     justify-self: right;
-    align-self: end;
+    align-self: center;
+    object-fit: contain;
 }

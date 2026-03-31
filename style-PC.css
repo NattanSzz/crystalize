@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.CtA {
+    width: 30%;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+div {
+    grid-row: 2 / 5;
+    grid-column: 2 / -1;
+    width: 80%;
+    height: 80%;
+    background-color:#b2d45554;
+    border-radius: 50%;
+    align-self: center;
+    justify-self: center;
+    transform: rotate(45deg);
+    z-index: 1;
+}
