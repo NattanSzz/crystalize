@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #B3D455;
+    background: linear-gradient(to top, white 50%, #B3D455 50%);
     display: grid;
     width: 100vw;
     height: 100vh;
